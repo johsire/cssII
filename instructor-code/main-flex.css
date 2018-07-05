@@ -72,7 +72,7 @@ main {
   align-items: center;
 }
 
-main>div {
+/* main>div {
   width: 800px;
   height: 160px;
   display: flex;
@@ -87,4 +87,23 @@ h1 {
   font-weight: lighter;
   color: black;
   text-shadow: 5px 5px rgba(0,0,0,0.2)
+} */
+
+main>div {
+  width: 400px;
+  height: 500px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+  overflow: hidden;
+}
+
+main .top {
+  height: 50%;
+}
+
+main .bottom {
+  height: 50%;
+  background-image: url('https://cdn.shopify.com/s/files/1/1491/0056/products/Upload1.jpeg?v=1528510305');
+  background-size: cover;
+  background-position: center;
 }
