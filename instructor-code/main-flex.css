@@ -7,3 +7,13 @@ header {
   height: 75px;
   background: slategrey;
 }
+
+.img-container {
+  width: 200px;
+  height: 65px;
+}
+
+img {
+  width: auto;
+  height: 100%;
+}
