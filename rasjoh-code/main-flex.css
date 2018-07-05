@@ -8,11 +8,13 @@ header {
   background: slategrey;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
 }
 
 .img-container {
   width: auto;
-  height: 65px;
+  height: 60px;
 }
 
 img {
