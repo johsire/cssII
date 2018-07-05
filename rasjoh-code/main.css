@@ -18,7 +18,7 @@ body {
   height: 100%;
   margin: 0 auto;
   background: #bada55;
-  position: absolute;
+  position: relative;
 }
 
 .circle {
@@ -27,5 +27,20 @@ body {
   background: firebrick;
   border-radius: 50%;
   position: absolute;
+}
+
+.top {
   top: 0;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.right {
+  right: 0;
+}
+
+.left {
+  left: 0;
 }
