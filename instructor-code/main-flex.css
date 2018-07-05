@@ -2,3 +2,8 @@ body {
   background: gainsboro;
 }
 
+header {
+  width: 100%;
+  height: 75px;
+  background: slategrey;
+}
