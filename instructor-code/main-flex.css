@@ -2,18 +2,3 @@ body {
   background: gainsboro;
 }
 
-.flex-container {
-  width: 1000px;
-  height: 900px;
-  background: forestgreen;
-  display: flex;
-  justify-content: space-around;
-  align-content: space-around;
-  flex-wrap: wrap;
-}
-
-.flex-container>div {
-
-  height: 110px;
-  background: burlywood;
-}
