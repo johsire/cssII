@@ -1,0 +1,16 @@
+body {
+  background: gainsboro;
+}
+
+.flex-container {
+  width: 1000px;
+  height: 900px;
+  background: forestgreen;
+}
+
+.flex-container>div {
+  width: 100px;
+  height: 100px;
+  background: burlywood;
+  margin-right: 0;
+}
