@@ -86,4 +86,5 @@ h1 {
   font-size: 65px;
   font-weight: lighter;
   color: black;
+  text-shadow: 5px 5px rgba(0,0,0,0.2)
 }

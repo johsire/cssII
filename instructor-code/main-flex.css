@@ -1,0 +1,90 @@
+:root {
+  --header: 75px;
+}
+
+body {
+  background: gainsboro;
+  font-family: 'Roboto';
+}
+
+header {
+  width: 100%;
+  height: var(--header);
+  background: slategrey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.img-container {
+  width: auto;
+  height: 60px;
+}
+
+img {
+  width: auto;
+  height: 100%;
+}
+
+nav {
+  width: 450px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  align-items: center;
+}
+
+button {
+  width: 120px;
+  height: 40px;
+  background: dodgerblue;
+  border: 0;
+  outline: none;
+  border-radius: 5px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+main button {
+  background: black;
+  width: 370px;
+}
+
+button:hover {
+  background: coral;
+}
+
+button:active {
+background: darkblue;
+border: 5px solid deeppink;
+}
+
+main {
+  height: calc(100vh - var(--header));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main>div {
+  width: 800px;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 65px;
+  font-weight: lighter;
+  color: black;
+  text-shadow: 5px 5px rgba(0,0,0,0.2)
+}
