@@ -13,7 +13,7 @@ body {
 }
 
 .flex-container>div {
-  width: 110px;
+  width: calc(100% * (1/4) - 10px - 1px);
   height: 110px;
   background: burlywood;
 }
