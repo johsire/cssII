@@ -47,6 +47,10 @@ button {
   font-size: 20px;
 }
 
+button:hover {
+  background: coral;
+}
+
 button:active {
 background: darkblue;
 border: 5px solid deeppink;
