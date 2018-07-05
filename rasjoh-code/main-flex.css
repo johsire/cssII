@@ -6,10 +6,12 @@ header {
   width: 100%;
   height: 75px;
   background: slategrey;
+  display: flex;
+  justify-content: space-between;
 }
 
 .img-container {
-  width: 200px;
+  width: auto;
   height: 65px;
 }
 
